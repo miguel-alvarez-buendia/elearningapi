@@ -20,21 +20,21 @@ Utiliza el token JWT en el encabezado `Authorization` para autenticar las solici
 
 ## end-points
 
-POST /auth/register
-POST /auth/login
-GET /courses
-POST /courses
-PUT /courses/:courseId
-DELETE /courses/:courseId
-GET /lessons/:courseId
-POST /lessons
-PUT /lessons/:id
-DELETE /lessons/:id
-GET /questions/:lessonId
-POST /questions
-PUT /questions/:id
-DELETE /questions/:id
-GET /student/courses
-GET /student/courses/:courseId/lessons
-POST /student/lessons/:lessonId/take
+- POST /auth/register
+- POST /auth/login
+- GET /courses
+- POST /courses
+- PUT /courses/:courseId
+- DELETE /courses/:courseId
+- GET /lessons/:courseId
+- POST /lessons
+- PUT /lessons/:id
+- DELETE /lessons/:id
+- GET /questions/:lessonId
+- POST /questions
+- PUT /questions/:id
+- DELETE /questions/:id
+- GET /student/courses
+- GET /student/courses/:courseId/lessons
+- POST /student/lessons/:lessonId/take
 
