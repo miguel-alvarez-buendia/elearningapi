@@ -3,7 +3,7 @@ const sequelize = require('./config/sequelize.config');
 const coursesRoutes = require('./routes/courses.route');
 const lessonsRoutes = require('./routes/lesson.route');
 const questionsRoutes = require('./routes/question.route');
-const studentRoutes = require('./routes/question.route');
+const studentRoutes = require('./routes/student.route');
 
 
 const authRouter = require('./routes/auth.route');
